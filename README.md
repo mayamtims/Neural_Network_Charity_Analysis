@@ -3,14 +3,15 @@ The purpose of this analysis was to utilize machine learning and deep neural net
 
 # Results
 ## Data Processing
-*The variable that is considered a target for the model if the organization will be successful
-*Variables that are considered features are application type, affiliation, classification, use case, organization type, active status, income classification, special considerations and amount requested
-*Variables that are neither targets nor features are EIN and name of organization
+* The variable that is considered a target for the model if the organization will be successful
+* Variables that are considered features are application type, affiliation, classification, use case, organization type, active status, income classification, special considerations and amount requested
+* Variables that are neither targets nor features are EIN and name of organization
 
 ## Compiling, Training and Evaluating
-*Initially two layers were used, the first had 80 nuerons and the second had 30. The input layer and both hidden layers used Relu activation functions and the output used a sigmoid activation function. 
-*The first model achieved an accuracy score of 72.6%, which is short of the target accuracy of 75%
-*A variety of steps were taken to increase model performance. An additional hidden layer was added, and the number of neurons was increased in each layer to 120, 90 and 60 respectively. The activation function for the output layer was changed from sigmoid to Relu and the number of epochs was increased to 150. 
+* Initially two layers were used, the first had 80 nuerons and the second had 30. The input layer and both hidden layers used Relu activation functions and the output used a sigmoid activation function. 
+* The first model achieved an accuracy score of 72.6%, which is short of the target accuracy of 75%
+* A variety of steps were taken to increase model performance. An additional hidden layer was added, and the number of neurons was increased in each layer to 120, 90 and 60 respectively. The activation function for the output layer was changed from sigmoid to Relu and the number of epochs was increased to 150. 
+
 ![codescreenshot](https://github.com/mayamtims/Neural_Network_Charity_Analysis/blob/main/screenshot.png)
 
 # Summary 
